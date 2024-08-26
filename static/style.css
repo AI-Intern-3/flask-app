@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("/static/AI-Room.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;  /* Ensures all form elements take the same width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;  /* Same font size for consistency */
+    box-sizing: border-box;  /* Ensures padding is included in the width */
+}
+
+button {
+    width: 60%;  /* Reduced width of the button */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;  /* Add some space above the button */
+}
+
+button:hover {
+    background-color: #45a049;
+}
